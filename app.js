@@ -49,15 +49,6 @@ app.get("/about",function(req,res){
     res.render("about");
 });
 
-// app.post("/work", function(req,res){
-//     let item = req.body.newItem;
-
-//     workItems.push(item);
-
-//     res.redirect("/work")
-// });
-
-
 app.listen(process.env.PORT || 3000, function () {
     console.log("Server is running on port 3000.");
 });
